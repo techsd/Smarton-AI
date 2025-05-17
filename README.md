@@ -111,6 +111,38 @@ When these two plugins work in tandem, they not only enhance the user experience
 
 In conclusion, SmartonAI sets a new benchmark in the EDA industry. By harnessing the power of AI and placing users' needs at the forefront, it paves the way for a more inclusive, productive, and interactive design landscape.
 
+## 7. Setup and Usage on Windows 11 with KiCAD 9
+
+### 7.1. Installing SmartonAI on Windows 11
+
+1. **Download SmartonAI**: Visit the official SmartonAI website and download the latest version of the software compatible with Windows 11.
+2. **Run the Installer**: Locate the downloaded installer file and double-click to run it. Follow the on-screen instructions to complete the installation process.
+3. **Install Dependencies**: Ensure that you have Python 3.8 or later installed on your system. You can download it from the official Python website. Additionally, install the required Python packages by running the following command in your command prompt:
+   ```
+   pip install -r requirements.txt
+   ```
+4. **Configure Environment Variables**: Add the installation directory of SmartonAI to your system's PATH environment variable. This allows you to run SmartonAI from any command prompt window.
+
+### 7.2. Integrating SmartonAI with KiCAD 9
+
+1. **Open KiCAD 9**: Launch KiCAD 9 on your Windows 11 system.
+2. **Access Plugin Manager**: Navigate to the Plugin Manager within KiCAD 9. This can usually be found under the "Tools" menu.
+3. **Install SmartonAI Plugin**: In the Plugin Manager, search for "SmartonAI" and click on the "Install" button. Follow any additional prompts to complete the installation.
+4. **Enable SmartonAI**: Once installed, ensure that the SmartonAI plugin is enabled within the Plugin Manager.
+
+### 7.3. Using SmartonAI with KiCAD 9
+
+1. **Launch SmartonAI**: With KiCAD 9 open, you can launch SmartonAI by navigating to the "Plugins" menu and selecting "SmartonAI".
+2. **Interact with SmartonAI**: Use the chat interface to interact with SmartonAI. You can ask questions, request help with specific tasks, and receive guidance on using KiCAD 9.
+3. **Execute Commands**: Utilize the OneCommandLine Plugin to execute commands and automate tasks within KiCAD 9. Simply type your command and let SmartonAI handle the rest.
+
+### 7.4. Troubleshooting Tips
+
+- **Plugin Not Found**: If you cannot find the SmartonAI plugin in the Plugin Manager, ensure that you have the latest version of KiCAD 9 and that your internet connection is stable.
+- **Installation Errors**: If you encounter errors during installation, double-check that all dependencies are installed correctly and that your system meets the minimum requirements.
+- **Performance Issues**: If SmartonAI is running slowly, try closing other applications to free up system resources. Additionally, ensure that your system has sufficient RAM and processing power to handle both KiCAD 9 and SmartonAI.
+- **Connection Problems**: If SmartonAI is unable to connect to the internet, check your network settings and firewall configurations. Ensure that SmartonAI has the necessary permissions to access the internet.
+
 ## Reference
 <a id="1">[1]</a>: "KiCad EDA." KiCad, https://www.kicad.org/. Accessed 25 July 2023.
 
